@@ -3,7 +3,7 @@
 # 🦠 🧫 💻 🧬
 
 ![GitHub release](https://img.shields.io/github/tag/Gibbons-Lab/isb_course_2023.svg)
-![QIIME 2 version](https://img.shields.io/badge/Qiime%202%20version-2023.3-blue.svg)
+![QIIME 2 version](https://img.shields.io/badge/Qiime%202%20version-2023.7-blue.svg)
 [![part 1](https://img.shields.io/website?up_color=green&up_message=up&label=part%201&url=https%3A%2F%2Fgibbons-lab.github.io%2Fisb_course_2023%2F16S)](https://gibbons-lab.github.io/isb_course_2023/16S)
 [![part 2](https://img.shields.io/website?up_color=green&up_message=up&label=part%202&url=https%3A%2F%2Fgibbons-lab.github.io%2Fisb_course_2023%2Fmicom)](https://gibbons-lab.github.io/isb_course_2023/micom)
 
