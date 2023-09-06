@@ -32,7 +32,7 @@ A [PDF version](part1.pdf) (lacks the output previews) is also available.
 
 
 Presentation: [![part 2](https://img.shields.io/website?up_color=green&up_message=up&label=part%202&url=https%3A%2F%2Fgibbons-lab.github.io%2Fisb_course_2023%2Fmicom)](https://gibbons-lab.github.io/isb_course_2023/micom)
-Notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gibbons-Lab/isb_course_2023/blob/main/micom.ipynb)
+Notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gibbons-Lab/isb_course_2023/blob/main/micom_2023.ipynb)
 
 You can see the actual workshop walkthrough at
 https://gibbons-lab.github.io/isb_course_2023/micom. Press `?` to get a list
@@ -90,6 +90,3 @@ To generate a PDF of the course, open up the website in chromium or chrome and
 append `?print-pdf` to the address. For instance, if you ran it locally as
 described above, open `localhost:8000/16S?print-pdf` in the browser. Then, choose
 'print to PDF' (choose margins: none).
-
-
-
