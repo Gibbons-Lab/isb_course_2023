@@ -20,7 +20,7 @@ has_qiime = "QIIME 2 release:" in os.popen("qiime info").read()
 
 
 MINICONDA_PATH = (
-    "https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh"
+    "https://repo.anaconda.com/miniconda/Miniconda3-py38_23.5.2-0-Linux-x86_64.sh"
 )
 QIIME_YAML_TEMPLATE = (
     "https://data.qiime2.org/distro/core/qiime2-{version}-py{python}-linux-conda.yml"
