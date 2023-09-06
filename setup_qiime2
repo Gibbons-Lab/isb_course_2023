@@ -20,8 +20,11 @@ has_qiime = "QIIME 2 release:" in os.popen("qiime info").read()
 
 
 MINICONDA_PATH = (
-    "https://repo.anaconda.com/miniconda/Miniconda3-py38_23.5.2-0-Linux-x86_64.sh"
+    "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh"
 )
+
+CONDA = "mamba"
+
 QIIME_YAML_TEMPLATE = (
     "https://data.qiime2.org/distro/core/qiime2-{version}-py{python}-linux-conda.yml"
 )
@@ -42,8 +45,8 @@ QIIME_YAML = os.path.basename(QIIME_YAML_URL)
 
 def cleanup():
     """Remove downloaded files."""
-    if os.path.exists("Miniconda3-latest-Linux-x86_64.sh"):
-        os.remove("Miniconda3-latest-Linux-x86_64.sh")
+    if os.path.exists(os.path.basename(MINICONDA_PATH)):
+        os.remove(os.path.basename(MINICONDA_PATH))
     if os.path.exists(QIIME_YAML):
         os.remove(QIIME_YAML)
     if os.path.exists("/content/sample_data"):
@@ -77,7 +80,7 @@ if __name__ == "__main__":
         )
 
         run_and_check(
-            ["bash", "Miniconda3-latest-Linux-x86_64.sh", "-bfp", "/usr/local"],
+            ["bash", os.path.basename(MINICONDA_PATH), "-bfp", "/usr/local"],
             "installation finished.",
             ":snake: Installing miniconda...",
             "could not install miniconda :sob:",
@@ -96,7 +99,7 @@ if __name__ == "__main__":
         )
 
         run_and_check(
-            ["conda", "env", "update", "-n", "base", "--file", QIIME_YAML],
+            [CONDA, "env", "update", "-n", "base", "--file", QIIME_YAML],
             "To activate this environment, use",
             ":mag: Installing Qiime 2. This may take a little bit.\n :clock1:",
             "could not install Qiime 2 :sob:",
