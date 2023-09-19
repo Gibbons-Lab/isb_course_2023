@@ -2,29 +2,29 @@
 
 # Amplicon Sequencing Data Analysis with QIIME 2
 
-### Christian Diener, Gibbons Lab
+### Nick Quinn-Bohmann, Gibbons Lab
 
 <img src="assets/isb/logo.png" width="40%">
 
-from the *ISB Microbiome Course 2020*
+from the *ISB Microbiome Course 2023*
 
 <br>
 <div class="footer">
 <a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fa fa-bullhorn"></i>CC-BY-NC</a>
 <a href="https://gibbons.isbscience.org/"><i class="fa fa-globe"></i>gibbons.isbscience.org</a>
 <a href="https://github.com/gibbons-lab"><i class="fa fa-github"></i>gibbons-lab</a>
-<a href="https://twitter.com/thaasophobia"><i class="fa fa-twitter"></i>@thaasophobia </a>
+<a href="https://twitter.com/BioBohmann"><i class="fa fa-twitter"></i>@BioBohmann </a>
 </div>
 
 ---
 
 <!-- .slide: data-background="var(--primary)" class="dark" -->
 
-# Hold your horses :horse:
+# Let's Start Learning 📚 
 
-Let's get the slides first (use your computer, phone, TV, fridge, anything with a 16:9 screen)
+First, we'll need the slides, full of _digestible_ information 
 
-*https://gibbons-lab.github.io/isb_course_2020/16S*
+*https://gibbons-lab.github.io/isb_course_2023/16S*
 
 ---
 
@@ -36,26 +36,23 @@ Let's get the slides first (use your computer, phone, TV, fridge, anything with 
 
 <br>
 
-<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2020/blob/master/16S.ipynb"
+<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2023/blob/master/16S.ipynb"
    target="_blank">Click me to open the notebook!</a>
 
 ---
 
 <!-- .slide: data-background="var(--primary)" class="dark" -->
 
-# Setup
+# Guts, Camera, Action 🎬
 
-:computer: Let's switch to the notebook and get started
+📕 Let's switch to the notebook and get started
 
 ---
-
-### Wait... what?
-
-<img src="assets/guide.png" width="30%">
+## In Case you Get Lost 🧭
 
 *All* output we generate can be found in the `treasure_chest` folder at
 
-https://github.com/gibbons-lab/isb_course_2020/treasure_chest
+https://github.com/gibbons-lab/isb_course_2023/treasure_chest
 
 or `materials/treasure_chest` in the Colaboratory notebook.
 
@@ -63,9 +60,9 @@ or `materials/treasure_chest` in the Colaboratory notebook.
 
 <!-- .slide: data-background="var(--secondary)" class="dark" -->
 
-# QIIME
+# QIIME 
 
-Pronounced like *chime*.
+Pronounced like *chime* 🔔
 
 Created ~2010 during the Human Microbiome Project (2007 - 2016) under the leadership
 of Greg Caporaso and Rob Knight.
@@ -88,7 +85,7 @@ Essentially, QIIME is a set of *commands* to transform microbiome *data* into
 
 <img src="assets/barplot.gif" width="100%">
 
-It's commonly used via the *command line*.
+It's commonly used via the *command line*. We'll use it within the Colab Notebook
 
 ---
 
@@ -97,10 +94,10 @@ was introduced in 2016 and improves upon QIIME 1, based on user experiences duri
 
 Major changes:
 
-- integrated tracking of *data provenance*
-- semantic *type system*
-- extendable *plugin* system
-- multiple *user interfaces* (in progress)
+- integrated tracking of *data provenance* 
+- semantic *type system* 
+- extendable *plugin* system 
+- multiple *user interfaces* (in progress) 
 
 
 
@@ -108,8 +105,8 @@ Major changes:
 
 ## Where to find help?
 
-QIIME 2 comes with a lot of help, including a wide range of [tutorials](https://docs.qiime2.org/2021.4/tutorials/),
-[general documentation](https://docs.qiime2.org/2021.4/) and a
+QIIME 2 comes with a lot of help, including a wide range of [tutorials](https://docs.qiime2.org/2023.7tutorials/),
+[general documentation](https://docs.qiime2.org/2023.7/) and a
 [user forum](https://forum.qiime2.org/) where you can ask questions.
 
 ---
@@ -123,7 +120,7 @@ into *actions* to either produce other artifacts or *visualizations*.
 
 <div class="footnote">
 
-https://docs.qiime2.org/2021.4/tutorials/overview/
+https://docs.qiime2.org/2023.7/tutorials/overview/
 
 </div>
 
