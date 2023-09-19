@@ -20,7 +20,7 @@ from the *ISB Microbiome Course 2023*
 
 <!-- .slide: data-background="var(--primary)" class="dark" -->
 
-# Let's Start Learning 📚 
+## Let's Start Learning 📚 
 
 First, we'll need the slides, full of _digestible_ information 
 
@@ -43,7 +43,7 @@ First, we'll need the slides, full of _digestible_ information
 
 <!-- .slide: data-background="var(--primary)" class="dark" -->
 
-# Guts, Camera, Action 🎬
+## Guts, Camera, Action 🎬
 
 📕 Let's switch to the notebook and get started
 
@@ -78,7 +78,7 @@ analysis package with a focus on data processing and analysis transparency.
 
 ---
 
-## So what is it really?
+## What can we do with QIIME?
 
 Essentially, QIIME is a set of *commands* to transform microbiome *data* into
 *intermediate outputs* and *visualizations*.
@@ -105,7 +105,7 @@ Major changes:
 
 ## Where to find help?
 
-QIIME 2 comes with a lot of help, including a wide range of [tutorials](https://docs.qiime2.org/2023.7tutorials/),
+QIIME 2 comes with a lot of help, including a wide range of [tutorials](https://docs.qiime2.org/2023.7/tutorials/),
 [general documentation](https://docs.qiime2.org/2023.7/) and a
 [user forum](https://forum.qiime2.org/) where you can ask questions.
 
@@ -131,6 +131,8 @@ https://docs.qiime2.org/2023.7/tutorials/overview/
 Artifacts often represent *intermediate steps*, but Visualizations are *end points*
 meant for human consumption :point_up:.
 
+Visualizations *cannot* be used as inputs for additional commands
+
 ---
 
 ## What is amplicon sequencing?
@@ -150,7 +152,11 @@ meant for human consumption :point_up:.
 https://doi.org/10.1186/s40168-015-0070-0
 
 ---
+## *C. diff* Risk Factors
 
+<img src="assets/riskfactors.png" height="550vh">
+
+---
 
 ## The <i>C. diff</i> infection cycle
 
