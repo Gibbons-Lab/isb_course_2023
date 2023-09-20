@@ -152,7 +152,7 @@ Visualizations *cannot* be used as inputs for additional commands
 https://doi.org/10.1186/s40168-015-0070-0
 
 ---
-## *C. diff* Risk Factors
+## _C. difficile_ Risk Factors
 
 <img src="assets/riskfactors.png" height="550vh">
 
@@ -176,37 +176,17 @@ courtesy of [Stephanie Swegle](https://see.isbscience.org/steam2019/stephanie-3/
 
 ---
 
-## Illumina FastQ files (Basespace)
+## Artifact Hunting 🤠
 
-<img src="assets/illumina.png" width="60%">
-
-```plaintext
-@SRR2143527.13917 13917 length=251
-TACGTAGGTGGCGAGCGTTATCCGGAATTATTGGGCGTAAA...
-+
-BBBBAF?A@D2BEEEGGGFGGGHGGGCFGFHHCFHCEFGGH...
-```
-
----
-
-We have our raw sequencing data but QIIME 2 only operates on artifacts. How
-do we convert our data into an artifact??
-
-:egg: or :hatched_chick:?
-
----
-
-<!-- .slide: data-background="var(--primary)" class="dark" -->
-
-## Our first QIIME 2 commands
+To start, we'll import our raw data into QIIME as an __artifact__ 
 
 :computer: Let's switch to the notebook and get started
 
 ---
 
-## Time to bring in the big guns :bomb::zap:
+## Denoising with DADA 2 🔇
 
-We will now run the DADA2 plugin, which will do 3 things:
+We just ran the DADA2 plugin for QIIME, which is doing 3 things:
 
 1. filter and trim the reads
 2. find the most likely original sequences in the sample (ASVs)
