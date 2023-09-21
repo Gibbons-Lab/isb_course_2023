@@ -174,6 +174,8 @@ courtesy of [Stephanie Swegle](https://see.isbscience.org/steam2019/stephanie-3/
 
 <img src="assets/steps.png" width="100%">
 
+</div>
+
 ---
 
 ## Artifact Hunting 🤠
@@ -181,6 +183,8 @@ courtesy of [Stephanie Swegle](https://see.isbscience.org/steam2019/stephanie-3/
 To start, we'll import our raw data into QIIME as an __artifact__ 
 
 :computer: Let's switch to the notebook and get started
+
+</div>
 
 ---
 
@@ -192,6 +196,8 @@ We just ran the DADA2 plugin for QIIME, which is doing 3 things:
 2. find the most likely original sequences in the sample (ASVs)
 3. remove chimeras
 4. count the abundances
+
+</div>
 
 ---
 
