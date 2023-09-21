@@ -57,6 +57,18 @@ https://github.com/gibbons-lab/isb_course_2023/treasure_chest
 or `materials/treasure_chest` in the Colaboratory notebook.
 
 ---
+## The Gut Microbiome 🦠
+- 30-40 trillion bacterial cells 
+- Heterogenous between individuals
+- Helps digest food and produces metabolites
+- Affects our health 
+
+ <img src="assets/microbes.png" width="80%">
+
+
+
+
+---
 
 <!-- .slide: data-background="var(--secondary)" class="dark" -->
 
