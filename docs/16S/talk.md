@@ -63,10 +63,15 @@ or `materials/treasure_chest` in the Colaboratory notebook.
 - Helps digest food and produces metabolites
 - Affects our health 
 
+
  <img src="assets/microbes.png" width="80%">
 
-
-
+---
+## Measuring Your Microbes 
+How do we see what is in the microbiome?
+- Thousands of taxa in each person
+- Difficult to culture outside the resident environment 
+- We can *sequence* their DNA instead 
 
 ---
 
