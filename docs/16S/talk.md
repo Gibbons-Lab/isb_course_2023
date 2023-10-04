@@ -34,10 +34,6 @@ First, we'll need the slides, full of _digestible_ information
 
 <img src="assets/materials.png" width="80%">
 
-<br>
-
-<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2023/blob/master/16S.ipynb"
-   target="_blank">Click me to open the notebook!</a>
 
 ---
 
@@ -47,6 +43,10 @@ First, we'll need the slides, full of _digestible_ information
 
 📕 Let's switch to the notebook and get started
 
+<br>
+
+<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2023/blob/master/16S_2023.ipynb"
+   target="_blank">Click me to open the notebook!</a>
 ---
 ## In Case you Get Lost 🧭
 
@@ -63,8 +63,9 @@ or `materials/treasure_chest` in the Colaboratory notebook.
 - Helps digest food and produces metabolites
 - Affects our health 
 
+<br>
 
- <img src="assets/microbes.png" width="80%">
+ <img src="assets/microbes.png" width="40%">
 
 ---
 ## Measuring Your Microbes 
@@ -103,20 +104,6 @@ Essentially, QIIME is a set of *commands* to transform microbiome *data* into
 <img src="assets/barplot.gif" width="100%">
 
 It's commonly used via the *command line*. We'll use it within the Colab Notebook
-
----
-
-[QIIME 2](https://doi.org/10.1038/s41587-019-0209-9)
-was introduced in 2016 and improves upon QIIME 1, based on user experiences during the HMP.
-
-Major changes:
-
-- integrated tracking of *data provenance* 
-- semantic *type system* 
-- extendable *plugin* system 
-- multiple *user interfaces* (in progress) 
-
-
 
 ---
 
