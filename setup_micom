@@ -57,7 +57,7 @@ if __name__ == "__main__":
     if not has_hybrid():
         run_and_check(
             ["pip", "install", "-q", COBRAPY_URL, MICOM_URL, "Cython", "biom-format"],
-            "Building wheel for micom (pyproject.toml) ... done",
+            "",
             ":snake: Installing MICOM...",
             "failed installing MICOM :sob:",
             ":snake: Done."
@@ -65,7 +65,7 @@ if __name__ == "__main__":
 
         run_and_check(
             ["pip", "install", "--no-deps", "-q", "highspy", OPTLANG_URL],
-            "Building wheel for optlang (pyproject.toml) ... done",
+            "",
             ":snake: Installing the hybrid solver...",
             "failed installing the solver :sob:",
             ":snake: Done."
