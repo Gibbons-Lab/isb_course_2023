@@ -1,5 +1,9 @@
 # Contributor Covenant Code of Conduct
 
+This document established the code of conduct for the ISB Virtual Microbiome Series and
+all associated communication platforms, including, but not limited to, the Slack
+channels, Zoom chat, and the Github repository. 
+
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our
@@ -24,6 +28,8 @@ community include:
   and learning from the experience
 * Focusing on what is best not just for us as individuals, but for the
   overall community
+* Keeping the communication channels accesible to all participants and refraining
+  from any destructive actions that harm access to them 
 
 Examples of unacceptable behavior include:
 
@@ -33,8 +39,18 @@ Examples of unacceptable behavior include:
 * Public or private harassment
 * Publishing others' private information, such as a physical or email
   address, without their explicit permission
+* Posting spam messages, unauthorized advertisement, or messages aimed at
+  exploiting or harming the privacy or cyber security of
+  participants or the organizing team
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
+
+## Advertisement Policy
+
+To keep public platforms focused on the course and symposium contents,
+we do not allow advertisements for products, services, or paid events, with 
+the exception of authorized messages from registered sponsors of the 
+ISB Virtual Microbiome Series. 
 
 ## Enforcement Responsibilities
 
