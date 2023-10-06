@@ -335,7 +335,7 @@ Without competition C. diff can bloom, leading to CDI
 
 ## Predicting C. diff colonization with MICOM
 
-<img src="assets/micom-cdiff-workflow.png" width="30%">
+<img src="assets/micom-cdiff-workflow.png" width="40%">
 
 
 Note:
