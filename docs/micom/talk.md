@@ -300,7 +300,7 @@ For this next part of the course, we'll revisit the theme of this years course: 
 
 ## Clostridioides difficile (C. diff) is a leading cause of GI track infections 
 
-<img src="assets/cdiff-global.jpeg" width="80%">
+<img src="assets/cdiff-global.jpeg" width="50%">
 
 
 <div class="footnote">
@@ -329,7 +329,7 @@ Infection develops following disruptions to the microbiome C. diff spores allow 
 
 ## Predicting C. diff colonization with MICOM
 
-<img src="assets/micom-cdiff-workflow.png" width="50%">
+<img src="assets/micom-cdiff-workflow.png" width="30%">
 
 
 Note:
@@ -387,7 +387,7 @@ Next, we'll look at a visualization of the niche space of each taxon in each sam
 
 Metabolomic exchanges are highly dependent on environmental context
 
-<img src="assets/cdiff-heatmap@250x.png" width="70%">
+<img src="assets/cdiff-heatmap@250x.png" width="80%">
 
 Note:
 
