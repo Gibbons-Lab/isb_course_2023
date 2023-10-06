@@ -305,7 +305,7 @@ For this next part of the course, we'll revisit the theme of this years course: 
 
 <div class="footnote">
 
-Rodriguez-PalaciosGuh, A. et al.,. https://doi.org/10.3389/fmed.2020.00009
+Rodriguez-PalaciosGuh, A. et al. https://doi.org/10.3389/fmed.2020.00009
 
 Note:
 
@@ -318,6 +318,10 @@ Clostridioides difficile  or C. diff is a leading cause of morbidity and mortali
 More of us have C. diff than you might expect
 
 <img src="assets/cdiff-colonization.png" width="70%">
+
+<div class="footnote">
+
+Crobach, M. et al. https://doi.org/10.1128/cmr.00021-17 
 
 Note:
 
