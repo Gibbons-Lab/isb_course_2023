@@ -58,17 +58,17 @@ if __name__ == "__main__":
         run_and_check(
             ["python", "-m", "pip", "install", COBRAPY_URL, MICOM_URL, "Cython", "biom-format"],
             "done",
-            ":snake: Installing MICOM...",
+            ":stew: Installing MICOM...",
             "failed installing MICOM :sob:",
-            ":snake: Done."
+            ":white_check_mark: Done."
         )
 
         run_and_check(
             ["pip", "install", "--no-deps", "highspy", OPTLANG_URL],
             "done",
-            ":snake: Installing the hybrid solver...",
+            ":stew: Installing the hybrid solver...",
             "failed installing the solver :sob:",
-            ":snake: Done."
+            ":white_check_mark: Done."
         )
     else:
         con.log(":snake: Everything already installed and working. Skipped.")
