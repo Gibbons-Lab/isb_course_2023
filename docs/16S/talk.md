@@ -19,8 +19,7 @@ from the *ISB Microbiome Course 2023*
 ---
 
 ## Let's Start Learning 📚 
-<!-- .slide: data-background="var(--primary)" class="dark" -->
-
+ 
 First, we'll need the slides, full of _digestible_ information 
 
 *https://gibbons-lab.github.io/isb_course_2023/16S*
@@ -38,7 +37,6 @@ First, we'll need the slides, full of _digestible_ information
 
 ## Guts, Camera, Action 🎬
 
-<!-- .slide: data-background="var(--primary)" class="dark" -->
 
 📕 Let's switch to the notebook and get started
 
@@ -66,7 +64,7 @@ or `materials/treasure_chest` in the Colaboratory notebook.
 
 <br>
 
- <img src="assets/microbes.png" width="40%" align='right' >
+ <img src="assets/microbes.png" width="80%" align='right' >
 
 ---
 ## Measuring Your Microbes 
