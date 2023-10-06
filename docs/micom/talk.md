@@ -327,7 +327,9 @@ Note:
 
 In adults estimates suggest 4-15% may be asymptomatic carriers
 In infants the rate of colonization is much higher ~30%
-Infection develops following disruptions to the microbiome C. diff spores allow it to persist following disruptions Without competition C. diff can bloom, leading to CDI
+Infection develops following disruptions to the microbiome 
+C. diff spores allow it to persist following disruptions 
+Without competition C. diff can bloom, leading to CDI
 
 ---
 
@@ -337,18 +339,11 @@ Infection develops following disruptions to the microbiome C. diff spores allow 
 
 
 Note:
- 
 
----
-
-## Medium Construction
-
-<img src="assets/medium.png" width="80%">
-
-Note:
-
-To construct the matched media we will use for modeling the growth of the microbiome for these indigenous communities, we first had to determine the dietary components present in the standard diet of each community, as I explained in the last slide. Next, we mapped each food to its constituent components using a food database. Like we mentioned previously, some foods like baobab fruit were not available on these databases. In these instances, more literature review was required to determine the composition. For instance, in the case of baobab fruit, we found an NMR-based study detailing it's metabolic composition. We then added the constitutent components to our medium at the correct relative abundances, mimicking the matched diet. Following this, we had to account for adsorption in the small intestine, where many metabolites from the diet are absorbed before they reach the large intestine, as well as adding bile acids and mucin. Finally, the medium undergoes a gap-filling process, that augments the medium with a minimal set of metabolites required so that all the taxa in the sample are capable of growing. Now, we have a componetized medium we can use to grow our samples, using the cooperative tradeoff FBA process I explained earlier. 
-
+To predict C. diff engraftment with MICOM we'll be using the following workflow. 
+We'll inject all our samples with 10% C. diff and peform ctFBA to estimate growth rates and fluxes.
+We'll then use this information to asses the susceptibility of our samples to invasion and see what 
+niches C. diff might be occupying when it invades.
 
 ---
 <!-- .slide: data-background="var(--primary)" class="dark" -->
