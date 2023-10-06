@@ -16,7 +16,7 @@ from rich.console import Console  # noqa
 con = Console()
 
 COBRAPY_URL = "git+https://github.com/cdiener/cobrapy@feature/hybrid_solver"
-MICOM_URL = "git+https://github.com/cdiener/cobrapy@feature/hybrid_solver"
+MICOM_URL = "git+https://github.com/micom-dev/micom@feature/hybrid_solver"
 OPTLANG_URL = "git+https://github.com/cdiener/optlang@feature/hybrid_solver"
 
 
@@ -24,7 +24,7 @@ def has_hybrid():
     try:
         import micom as mm
         from cobra.util.solver import interface_to_str
-        com = mm.Community(mm.data.test_taxxonomy(), solver="hybrid")
+        com = mm.Community(mm.data.test_taxonomy(), solver="hybrid")
         assert "hybrid" in interface_to_str(com.solver.problem)
     except Exception:
         return False
@@ -56,16 +56,16 @@ def run_and_check(args, check, message, failure, success, console=con):
 if __name__ == "__main__":
     if not has_hybrid():
         run_and_check(
-            ["pip", "install", "-q", COBRAPY_URL, MICOM_URL, "Cython", "biom-format"],
-            "",
+            ["python", "-m", "pip", "install", COBRAPY_URL, MICOM_URL, "Cython", "biom-format"],
+            "done",
             ":snake: Installing MICOM...",
             "failed installing MICOM :sob:",
             ":snake: Done."
         )
 
         run_and_check(
-            ["pip", "install", "--no-deps", "-q", "highspy", OPTLANG_URL],
-            "",
+            ["pip", "install", "--no-deps", "highspy", OPTLANG_URL],
+            "done",
             ":snake: Installing the hybrid solver...",
             "failed installing the solver :sob:",
             ":snake: Done."
