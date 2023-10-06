@@ -1,6 +1,4 @@
-<!--a href="https://isbscience.org/microbiome2023"><img src="https://isbscience.org/microbiome2023/images/2023microbiome.png" width="60%"></a-->
-
-# 🦠 🧫 💻 🧬
+<a href="https://isbscience.org/microbiome2023"><img src="https://isbscience.org/microbiome2023/images/2023microbiome.png" width="60%"></a>
 
 ![GitHub release](https://img.shields.io/github/tag/Gibbons-Lab/isb_course_2023.svg)
 ![QIIME 2 version](https://img.shields.io/badge/Qiime%202%20version-2023.7-blue.svg)
