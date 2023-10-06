@@ -18,9 +18,8 @@ from the *ISB Microbiome Course 2023*
 
 ---
 
-<!-- .slide: data-background="var(--primary)" class="dark" -->
-
 ## Let's Start Learning 📚 
+<!-- .slide: data-background="var(--primary)" class="dark" -->
 
 First, we'll need the slides, full of _digestible_ information 
 
@@ -37,9 +36,9 @@ First, we'll need the slides, full of _digestible_ information
 
 ---
 
-<!-- .slide: data-background="var(--primary)" class="dark" -->
-
 ## Guts, Camera, Action 🎬
+
+<!-- .slide: data-background="var(--primary)" class="dark" -->
 
 📕 Let's switch to the notebook and get started
 
@@ -47,6 +46,8 @@ First, we'll need the slides, full of _digestible_ information
 
 <a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2023/blob/master/16S_2023.ipynb"
    target="_blank">Click me to open the notebook!</a>
+
+
 ---
 ## In Case you Get Lost 🧭
 
@@ -65,7 +66,7 @@ or `materials/treasure_chest` in the Colaboratory notebook.
 
 <br>
 
- <img src="assets/microbes.png" width="40%">
+ <img src="assets/microbes.png" width="40%" align='right' >
 
 ---
 ## Measuring Your Microbes 
@@ -75,10 +76,10 @@ How do we see what is in the microbiome?
 - We can *sequence* their DNA instead 
 
 ---
+# QIIME 
 
 <!-- .slide: data-background="var(--secondary)" class="dark" -->
 
-# QIIME 
 
 Pronounced like *chime* 🔔
 
