@@ -404,5 +404,35 @@ Which taxa are associated with the disease state?
 
 ### And we are done :clap:
 
-# Thanks!
+<div style="display: flex; justify-content: space-around; align-items: center;">
+
+<div>
+
+Alex Carr <br>
+Sean Gibbons <br>
+Alyssa Easton <br>
+Katherine Ramos Sarmiento <br>
+Noa Rappaport <br>
+Karl Gaisser <br>
+Chloe Herman <br>
+Greg Caporaso <br>
+Christian Diener
+
+</div>
+
+<div>
+
+Dominic Lewis <br>
+Allison Kudla <br>
+Audri Hubbard <br>
+Joe Myxter <br>
+Thea Swanson <br>
+Victoria Uhl<br>
+Connor Kelly<br>
+Shanna Braga<br>
+ISB Facilities Team
+
+</div></div>
+
+# Thanks! :heart:
 
