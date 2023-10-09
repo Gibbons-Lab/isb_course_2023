@@ -214,7 +214,7 @@ To start, we'll import our raw data into QIIME as an *artifact*.
 
 ## Denoising with DADA 2
 
-We just ran the DADA2 plugin for QIIME, which is doing 3 things:
+We just ran the DADA2 plugin for QIIME, which is doing 4 things:
 
 1. filter and trim the reads
 2. find the most likely original sequences in the sample (ASVs)
