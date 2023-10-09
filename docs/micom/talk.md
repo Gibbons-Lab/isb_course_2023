@@ -46,6 +46,64 @@ Note:
 As a reminder, as with yesterday, this course will be taught across three modules. The presentation slides we're currently looking at will contain explanations of the logic and methods used in the course, as well as links to pertinent materials related to the material included in the course. The analysis and modeling, as well as visualizations of results, will take place in the course notebook, hosted in Google Collab. You can navigate to the notebook using the link on the next slide, or from the email sent to you before the course. Finally, the Slack chat is available to you at any time during the course for questions or comments. So if you have any questions, don't hesitate to post them there and the TAs will be happy to help you out. 
 
 ---
+<!-- .slide: data-background="var(--primary)" class="dark" -->
+
+## Modeling pathogen engraftment: will it stick?
+
+
+Note: 
+
+For this next part of the course, we'll revisit the theme of this years course: Predicting personalized pathogen engraftment with metabolic models
+---
+
+## Clostridioides difficile (C. diff) is a leading cause of GI track infections 
+
+<img src="assets/cdiff-global.jpeg" width="50%">
+
+
+<div class="footnote">
+
+Rodriguez-PalaciosGuh, A. et al. https://doi.org/10.3389/fmed.2020.00009
+
+Note:
+
+Clostridioides difficile  or C. diff is a leading cause of morbidity and mortality globally. In the US alone CDI affects nearly 500k individuals annually, ~6% of which are fatal
+
+---
+
+## C. diff colonization and the transition to infection
+
+More of us have C. diff than you might expect
+
+<img src="assets/cdiff-colonization.png" width="70%">
+
+<div class="footnote">
+
+Crobach, M. et al. https://doi.org/10.1128/cmr.00021-17 
+
+Note:
+
+In adults estimates suggest 4-15% may be asymptomatic carriers
+In infants the rate of colonization is much higher ~30%
+Infection develops following disruptions to the microbiome 
+C. diff spores allow it to persist following disruptions 
+Without competition C. diff can bloom, leading to CDI
+
+---
+
+## Predicting C. diff colonization with MICOM
+
+<img src="assets/micom-cdiff-workflow.png" width="40%">
+
+
+Note:
+
+To predict C. diff engraftment with MICOM we'll be using the following workflow. 
+We'll inject all our samples with 10% C. diff and peform ctFBA to estimate growth rates and fluxes.
+We'll then use this information to asses the susceptibility of our samples to invasion and see what 
+niches C. diff might be occupying when it invades.
+
+---
 
 <!-- .slide: data-background="var(--primary)" class="dark" -->
 
@@ -227,9 +285,9 @@ Great, so now we've covered classic flux balance analysis used for genome-scale 
 
 ---
 
-## When 2 leads to infinity...
+## Estimating community wide growth rates with cooperative trade off flux balance analysius (ctFBA)
 
-<img src="assets/ctFBA.png" width="60%">
+<img src="assets/growth_cone.png" width="60%">
 
 Note:
 
@@ -290,64 +348,6 @@ This is a visualization of a standard metagenome-scale metabolic model. Each pin
 ---
 <!-- .slide: data-background="var(--primary)" class="dark" -->
 
-## Modeling pathogen engraftment: will it stick?
-
-
-Note: 
-
-For this next part of the course, we'll revisit the theme of this years course: Predicting personalized pathogen engraftment with metabolic models
----
-
-## Clostridioides difficile (C. diff) is a leading cause of GI track infections 
-
-<img src="assets/cdiff-global.jpeg" width="50%">
-
-
-<div class="footnote">
-
-Rodriguez-PalaciosGuh, A. et al. https://doi.org/10.3389/fmed.2020.00009
-
-Note:
-
-Clostridioides difficile  or C. diff is a leading cause of morbidity and mortality globally. In the US alone CDI affects nearly 500k individuals annually, ~6% of which are fatal
-
----
-
-## C. diff colonization and the transition to infection
-
-More of us have C. diff than you might expect
-
-<img src="assets/cdiff-colonization.png" width="70%">
-
-<div class="footnote">
-
-Crobach, M. et al. https://doi.org/10.1128/cmr.00021-17 
-
-Note:
-
-In adults estimates suggest 4-15% may be asymptomatic carriers
-In infants the rate of colonization is much higher ~30%
-Infection develops following disruptions to the microbiome 
-C. diff spores allow it to persist following disruptions 
-Without competition C. diff can bloom, leading to CDI
-
----
-
-## Predicting C. diff colonization with MICOM
-
-<img src="assets/micom-cdiff-workflow.png" width="40%">
-
-
-Note:
-
-To predict C. diff engraftment with MICOM we'll be using the following workflow. 
-We'll inject all our samples with 10% C. diff and peform ctFBA to estimate growth rates and fluxes.
-We'll then use this information to asses the susceptibility of our samples to invasion and see what 
-niches C. diff might be occupying when it invades.
-
----
-<!-- .slide: data-background="var(--primary)" class="dark" -->
-
 ## Before we look at our results...
 
 Note:
@@ -373,7 +373,7 @@ First and foremost, we'll take a look at growth rates of the indivual taxa in ea
 
 The context-dependent way in which a microbial taxon uses its environment
 
-<img src="assets/niches.png" width="75%">
+<img src="assets/Global-UMAP-cdiff-genuscorr.png" width="75%">
 
 
 Note:
@@ -382,9 +382,9 @@ Next, we'll look at a visualization of the niche space of each taxon in each sam
 
 ---
 
-## Comparative metabolomics
+## Comparative fluxomics
 
-Metabolomic exchanges are highly dependent on environmental context
+Metabolite exchanges are highly dependent on environmental context and can provide insights into the realized niche of organisms and communitites
 
 <img src="assets/cdiff-heatmap@250x.png" width="80%">
 
