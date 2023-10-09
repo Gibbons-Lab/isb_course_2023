@@ -19,16 +19,16 @@ from the *ISB Microbiome Course 2023*
 ---
 
 ## Let's Start Learning :books:
- 
-First, we'll need the slides, full of _digestible_ information 
+
+First, we'll need the slides, full of _digestible_ information
 
 *https://gibbons-lab.github.io/isb_course_2023/16S*
 
 ---
 
-# Organization of the course
-
 <!-- .slide: data-background="var(--primary)" class="dark" -->
+
+# Organization of the course
 
 <img src="assets/materials.png" width="80%">
 
@@ -42,11 +42,12 @@ First, we'll need the slides, full of _digestible_ information
 
 <br>
 
-<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2023/blob/master/16S_2023.ipynb"
+<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2023/blob/main/16S_2023.ipynb"
    target="_blank">Click me to open the notebook!</a>
 
 
 ---
+
 ## In Case you Get Lost 🧭
 
 *All* output we generate can be found in the `treasure_chest` folder at
@@ -56,28 +57,39 @@ https://github.com/gibbons-lab/isb_course_2023/treasure_chest
 or `materials/treasure_chest` in the Colaboratory notebook.
 
 ---
+
+<div style="display: flex; justify-content: space-between; align-items: center">
+
+<div>
+
 ## The Gut Microbiome 🦠
-- 30-40 trillion bacterial cells 
+
+- 30-40 trillion bacterial cells
 - Heterogenous between individuals
 - Helps digest food and produces metabolites
-- Affects our health 
+- Affects our health
 
-<br>
+</div>
 
- <img src="assets/microbes.png" width="30%" >
+ <img src="assets/microbes.png" width="35%">
+
+</div>
 
 ---
-## Measuring Your Microbes 
+
+## Measuring Your Microbes
+
 How do we see what is in the microbiome?
+
 - Hundreds to Thousands of taxa in each person
-- Difficult to culture outside the resident environment 
-- We can *sequence* their DNA instead 
+- Difficult to culture outside the resident environment
+- We can *sequence* their DNA instead
 
 ---
-# QIIME 
 
 <!-- .slide: data-background="var(--secondary)" class="dark" -->
 
+# QIIME
 
 Pronounced like *chime* 🔔
 
@@ -164,7 +176,7 @@ The 16S gene is *universal* and contains interspersed conserved regions perfect 
 https://doi.org/10.1186/s40168-015-0070-0
 
 ---
-## _C. difficile_ Risk Factors
+## <i>C. difficile</i> Risk Factors
 
 <img src="assets/riskfactors.png" height="550vh">
 
@@ -190,9 +202,9 @@ courtesy of [Stephanie Swegle](https://see.isbscience.org/steam2019/stephanie-3/
 
 ---
 
-## Artifact Hunting 
+## Artifact Hunting
 
-To start, we'll import our raw data into QIIME as an __artifact__ 
+To start, we'll import our raw data into QIIME as an *artifact*.
 
 :computer: Let's switch to the notebook and get started
 
@@ -200,7 +212,7 @@ To start, we'll import our raw data into QIIME as an __artifact__
 
 ---
 
-## Denoising with DADA 2 
+## Denoising with DADA 2
 
 We just ran the DADA2 plugin for QIIME, which is doing 3 things:
 
