@@ -69,7 +69,7 @@ or `materials/treasure_chest` in the Colaboratory notebook.
 ---
 ## Measuring Your Microbes 
 How do we see what is in the microbiome?
-- Thousands of taxa in each person
+- Hundreds to Thousands of taxa in each person
 - Difficult to culture outside the resident environment 
 - We can *sequence* their DNA instead 
 
@@ -217,7 +217,7 @@ We just ran the DADA2 plugin for QIIME, which is doing 3 things:
 
 <img src="assets/dada2.png" width="80%">
 
-Expectation-Maximization (EM) algorithm to find alternative sequence variants
+Expectation-Maximization (EM) algorithm to find amplicon sequence variants
 (ASVs) and the real error model at the same time.
 
 ---
@@ -266,7 +266,7 @@ How diverse is a single sample?
 
 ## Statistical tests for alpha diversity
 
-Alpha diversity will provide a single value/covariate for each sample.
+Alpha diversity will provide a single value for each sample.
 
 It can be treated as any other sample measurement and is suitable for classic
 univariate tests (t-test, Mann-Whitney U test).
@@ -334,7 +334,7 @@ More complicated. Usually not normal and very heterogeneous. PERMANOVA can deal 
 ## But what organisms are there in our sample?
 
 We are still just working with sequences and have no idea what *organisms*
-those correspond to.
+they correspond to.
 
 <br>
 
@@ -365,7 +365,7 @@ often provides better *generalization* and faster results.
 
 <!-- .slide: data-background="var(--primary)" class="dark" -->
 
-## Let's assign taxonomy to the samples
+## Let's assign taxonomy to the sequences
 
 :computer: Let's switch to the notebook and assign taxonomy to our ASVs
 
@@ -373,7 +373,7 @@ often provides better *generalization* and faster results.
 
 ## Your turn
 
-What is the relationship between particular *taxa* and the disease state?
+Which taxa are associated with the disease state?
 
 <img src="assets/coding.gif" width="50%">
 
