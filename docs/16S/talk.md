@@ -144,6 +144,15 @@ Visualizations *cannot* be used as inputs for additional commands
 
 ---
 
+## Why the 16S gene?
+
+![](assets/16S_gene.png)
+
+
+The 16S gene is *universal* and contains interspersed conserved regions perfect for *PCR* priming and hypervariable regions with *phylogenetic heterogeneity*.
+
+---
+
 <!-- .slide: data-background="var(--primary)" class="dark" -->
 
 ## Analyzing gut microbial composition during recurrent <i>C. diff</i> infections
