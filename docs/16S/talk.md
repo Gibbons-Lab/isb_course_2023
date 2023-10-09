@@ -64,7 +64,7 @@ or `materials/treasure_chest` in the Colaboratory notebook.
 
 <br>
 
- <img src="assets/microbes.png" width="80%" align='right' >
+ <img src="assets/microbes.png" height="80%" align='left' >
 
 ---
 ## Measuring Your Microbes 
