@@ -18,7 +18,7 @@ from the *ISB Microbiome Course 2023*
 
 ---
 
-## Let's Start Learning 📚 
+## Let's Start Learning :books:
  
 First, we'll need the slides, full of _digestible_ information 
 
@@ -35,7 +35,7 @@ First, we'll need the slides, full of _digestible_ information
 
 ---
 
-## Guts, Camera, Action 🎬
+## Guts, Camera, Action :movie_camera:
 
 
 📕 Let's switch to the notebook and get started
@@ -181,7 +181,7 @@ courtesy of [Stephanie Swegle](https://see.isbscience.org/steam2019/stephanie-3/
 
 ---
 
-## Artifact Hunting 🤠
+## Artifact Hunting 
 
 To start, we'll import our raw data into QIIME as an __artifact__ 
 
@@ -191,7 +191,7 @@ To start, we'll import our raw data into QIIME as an __artifact__
 
 ---
 
-## Denoising with DADA 2 🔇
+## Denoising with DADA 2 
 
 We just ran the DADA2 plugin for QIIME, which is doing 3 things:
 
@@ -213,7 +213,7 @@ We just ran the DADA2 plugin for QIIME, which is doing 3 things:
 
 ---
 
-## Identifying alternative sequence variants (ASVs)
+## Identifying amplicon sequence variants (ASVs)
 
 <img src="assets/dada2.png" width="80%">
 
@@ -303,12 +303,6 @@ all samples are related to one another. That is, we are often interested in thei
 
 Phylogenetic trees are built from *multiple sequence alignments* and sequences are
 arranged by *sequence similarity* (branch length).
-
----
-
-You can visualize your tree using iTOL (https://itol.embl.de/).
-
-<img src="assets/tree.png" width="75%">
 
 ---
 
