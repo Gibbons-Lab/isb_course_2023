@@ -52,7 +52,7 @@ First, we'll need the slides, full of _digestible_ information
 
 *All* output we generate can be found in the `treasure_chest` folder at
 
-https://github.com/gibbons-lab/isb_course_2023/treasure_chest
+https://github.com/Gibbons-Lab/isb_course_2023/tree/main/treasure_chest
 
 or `materials/treasure_chest` in the Colaboratory notebook.
 
