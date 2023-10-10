@@ -180,6 +180,9 @@ https://doi.org/10.1186/s40168-015-0070-0
 
 <img src="assets/riskfactors.png" height="550vh">
 
+<div class="footnote">
+
+created with *BioRender.com*
 ---
 
 ## The <i>C. diff</i> infection cycle
