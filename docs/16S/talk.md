@@ -280,11 +280,11 @@ How diverse is a single sample?
 <img src="assets/alpha_diversity.png" width="50%">
 
 - *richness:* how many taxa do we observe (richness)?<br>
-  → #observed taxa, Simpson index
+  → #observed taxa
 - *evenness*: how evenly are abundances distributed across taxa?<br>
   → Evenness index
 - *mixtures*: metrics that combine both richness and evenness<br>
-  → Shannon index
+  → Shannon Index, Simpson's Index
 
 ---
 
