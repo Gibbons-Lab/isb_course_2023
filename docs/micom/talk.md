@@ -287,6 +287,32 @@ Great, so now we've covered classic flux balance analysis used for genome-scale 
 
 ---
 
+## Genome-scale metabolic models - well behaved
+
+<img src="assets/gsmm.webp" width="100%">
+
+<div class="footnote">
+
+Schuetz et al. 2012, https://doi.org/10.1126/science.1216882<br>
+Harcombe et al. 2013, https://doi.org/10.1371/journal.pcbi.1003091
+
+</div>
+
+---
+
+## Community-scale metabolic models - pretty rowdy
+
+<img src="assets/csmm.webp" width="100%">
+
+<div class="footnote">
+
+Diener et al. 2023, https://doi.org/10.1128/msystems.01270-22<br>
+Senne de Oliveira Lino et al. 2021, https://doi.org/10.1038/s41467-021-21844-7
+
+</div>
+
+---
+
 ## Estimating community wide growth rates with cooperative trade off flux balance analysis (ctFBA)
 
 <img src="assets/growth_cone.png" width="60%">
@@ -294,7 +320,6 @@ Great, so now we've covered classic flux balance analysis used for genome-scale 
 Note:
 
 In practice, getting a community-wide growth rate using classic FBA doesn't work very well. Let's set up an example to illustrate, wherein we have two identical microbes in our community, lets say theyre both e coli, at the exact same abundances. If we know that the maximum community growth is 1, we see that there are actually an infinite number of solutions to this. We could have equal growth rates of 1 for each, which comes out to a community growth rate of 1, based on our definition in the last slide. Alternatively, we could have a growth rate of 2 for the orange one and zero for the blue one. This would still satisfy our maximum community growth rate of 1, despite the fact that 50% of the taxa aren't growing. There is actually an infinite number of solutions to this, represented by this red line in the first graph This isn't good, since this introduces a lot of ambiguity and increases the size of the flux cone to include non-biologically relevant solutions. So that's not what we want. Intuitively, we know that idenitcal strains should grow at the same growth rate. To overcome this, MICOM introduces a regularization technique that reduces the solution space back to a relevant one. If we make the assumption that we mentioned earlier, which is biologically intuitive, that any taxon present in a sample should be able to grow, the regularization strategy should return a solution in which most of the taxa are growing, omitting those terminal solutions in which some taxa aren't growing at all. What's called an L2 regularization scheme actually achieves this well, by minimizing the sum of the squares of the individual growth rates. This basically penalizes really high growth rates, and rather finds a solution along that maximal growth rate line that distributes the growth across as many taxa as possible. Indeed, we see that incorpoating this L2 strategy onto our example here, we end up with a solution in which both taxa are growing at the same rate, minimizing the L2 parameter and matching our intuition. Thinking biologically, though, it also makes sense that for every bacteria in a community to be able to grow, optimal growth rate might not be achieved. An idealistic maximal growth rate might only occur when some bacteria are growing at the expense of others, and the biologically relevant growth rate may be suboptimal, falling below this maximal growth rate. In MICOM, we can model this by incorporating cooperative tradeoff wherein we define the fraction of the maximal community growth rate for which we want to conduct the L2 regularization. In this example we can set a tradeoff of 80% optimal growth, and we see slightly lower growth rates. Methods for choosing a tradeoff parameter is covered at the end of the course notebook, if you are interested.
-
 
 ---
 
