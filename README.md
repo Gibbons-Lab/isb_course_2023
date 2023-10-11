@@ -23,7 +23,7 @@ https://gibbons-lab.github.io/isb_course_2023/16S. Press `?` to get a list
 of available live options such as slide overviews and speaker mode. Note that
 some slides are grouped vertically, you can navigate the presentation using
 the directional buttons on your keyboard.
-A [PDF version](part1.pdf) (lacks the output previews) is also available.
+A [PDF version](https://github.com/Gibbons-Lab/isb_course_2023/blob/main/docs/16S/talk.pdf) (lacks the output previews) is also available.
 
 
 ## Part 2: Predicting personalized pathogen engraftment with metabolic models
@@ -37,7 +37,7 @@ https://gibbons-lab.github.io/isb_course_2023/micom. Press `?` to get a list
 of available live options such as slide overviews and speaker mode. Note that
 some slides are grouped vertically, you can navigate the presentation using
 the directional buttons on your keyboard.
-A [PDF version](part2.pdf) (lacks the output previews) is also available.
+A [PDF version](https://github.com/Gibbons-Lab/isb_course_2023/blob/main/docs/micom/talk.pdf) (lacks the output previews) is also available.
 
 # Licensing
 
