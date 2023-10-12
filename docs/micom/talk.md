@@ -415,9 +415,17 @@ Finally, we'll take a look at the metabolic imports predicted from the growth of
 
 ---
 
+<!-- .slide: data-background="var(--primary)" class="dark" -->
+
+## Let's check out our results and build some visualizations
+
+:computer: Let's switch to the notebook!
+
+---
+
 ## Your turn
 
-Check out how to use MICOM for analysis of a single microbial community.
+Lets figure out how to use MICOM investigate the niche occupied by C. diff in our samples.
 
 <img src="assets/coding.gif" width="50%">
 
@@ -428,13 +436,6 @@ Finally, once we're done looking at our output, it'll be your turn to jump in th
 
 ---
 
-<!-- .slide: data-background="var(--primary)" class="dark" -->
-
-## Let's check out our results and build some visualizations
-
-:computer: Let's switch to the notebook!
-
----
 <!-- .slide: data-background="assets/isb/microbes-azure.jpg" class="dark" -->
 
 ### And we are done :clap:
