@@ -256,9 +256,9 @@ Here's the typical workflow for building metabolic models. First we build the mo
 
 <!-- .slide: data-background="var(--primary)" class="dark" -->
 
-## Let's continue with our data
+## Let's return to the models we've built
 
-:computer: Let's switch to the notebook...
+:computer: Let's switch to the notebook!
 
 ---
 
@@ -344,14 +344,6 @@ https://doi.org/10.1128/mSystems.00606-19
 Note:
 
 The age-old question. Here, we see results from the orignal micom publication validating the ctFBA approach described. On the left we see distributions of individual taxa across a large number of communities and conditions. What we see is that if dont integrate a  regularization step (no L2 parameter minimization), there is a very small number of taxa that can achieve high growth rates, and a majority effectively not growing at all. Obviously, this is not what's actually happening in the microbiome, and this solution is not relevant to the system. If we apply the L2 regularization strategy and require the community to achieve its theoretical maximal growth rate, we see that a lot more taxa are able to grow - that is the L2 reguluarization better distributes growth across the individual communitu members. However, as previously noted, this maximal growth rate might not be achievable with all taxa growing. Lowering the tradeoff value just a little to 0.7, we see that almost all the taxa are able to grow, echoing what we expect to see in the microbial community. This result by itself statisfies our assumption that taxa present in the sample should be able to grow. The team also validated predicted growth rates by comparing them with replication rate, which is generally proportional with growth rate. For these data, the team had metagenomes. Its been shown that coverage profiles of metagenomic reads for fast growing bacteria can be used as a proxy for growth rate. You can do this by measuring the decay in read coverage from the origin of replication. Using this method, the team could estiamte  growth rates in vitro, and compare these to growth rates predicted by MICOM. You can see in this panel on the right that without regularization, or at high tradeoff values with regularization, the predicted growth rate did not correlate with calculated growth rate. Lowering the tradeoff value slightly showed a much stronger correlation with calculated growth rate, thus showing that ctFBA provides a biologically meaninful solution to the community growth rate problem. So, in short, cooperative tradeoff with L2 regularization helps us reach a solution wherein most taxa are able to grow, and the growth rates are a much closer to what you would expect.
-
----
-
-<!-- .slide: data-background="var(--primary)" class="dark" -->
-
-## Let's return to the models we've built
-
-:computer: Let's switch to the notebook!
 
 ---
 
